@@ -34,7 +34,7 @@ console.logUI('This is output only console on UI. New method.');
 
 ![Capture](https://user-images.githubusercontent.com/83307074/136626429-e29deefb-d334-4097-88d4-c096b263b436.JPG)
 
-There is a usage examples on the 'examples' folder.
+There is an usage example on the 'examples' folder.
 
 ## Other implementations
  1. [Playlist-Tools-SMP](https://github.com/regorxxx/Playlist-Tools-SMP): Different tools for [foobar2000](https://www.foobar2000.org).
