@@ -29,7 +29,7 @@ console.log('This is output to log file at foobar profile folder and to console 
 
 A new method has been created to only send the message to the the UI console:
 ```javascript
-console.logUI('This is output only console on UI. New method.');
+console.logUI('This is output only to console on UI. New method.');
 ```
 
 ![Capture](https://user-images.githubusercontent.com/83307074/136626429-e29deefb-d334-4097-88d4-c096b263b436.JPG)
