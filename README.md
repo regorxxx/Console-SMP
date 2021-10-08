@@ -5,7 +5,7 @@
 ![GitHub](https://img.shields.io/github/license/regorxxx/Console-SMP)  
 A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spider_monkey_panel) and [foobar2000](https://www.foobar2000.org) which allows to permanently save console logs to a file using the existing method (console.log).
 
-## The problem with current Foobar2000' console
+## The problem with current Foobar2000's console
 Default UI allows to open the console log into a panel and save its content to a file, but the option is reset on every start-up... thus defeating the idea of logging to a file. Since file logging may be useful on servers, specially when using headless installation and interacting with SMP scripts (to check response), this utility is offered as alternative.
 
 ## Features
