@@ -14,7 +14,7 @@ function consoleLog() {
 	if (utils.IsFile(conLog)) {log += utils.ReadTextFile(conLog, convertCharsetToCodepage('UTF-8'));}
 	// Add HH:MM:SS
 	const stamp = '[' + new Date().toLocaleTimeString() + ']';
-	log += (log.length ? '\n' : '') + stamp;
+	log += (log && log.length ? '\n' : '') + stamp;
 	// Unpack args
 	[...arguments].forEach((arg, i) => {
 		const type = typeof arg;
