@@ -9,7 +9,7 @@ A helper script for [Spider Monkey Panel](https://theqwertiest.github.io/foo_spi
 Default UI allows to open the console log into a panel and save its content to a file, but the option is reset on every start-up... thus defeating the idea of logging to a file. Since file logging may be useful on servers, specially when using headless installation and interacting with SMP scripts (to check response), this utility is offered as alternative.
 
 ## Features
-- Saves any message send to the console on a text file (path configurable).
+- Saves any message sent to the console on a text file (path configurable).
 - Saving is not reset on every start-up (contrary to Foobar2000's native console).  
 - File is only reset when certain file size is reached (configurable).
 - Works 'as is' without any modification on existing scripts, just include it and done.
