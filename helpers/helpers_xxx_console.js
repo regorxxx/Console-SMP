@@ -1,5 +1,5 @@
 ﻿'use strict';
-//02/12/21
+//03/02/22
 
 include(fb.ComponentPath + 'docs\\Codepages.js');
 
@@ -11,7 +11,7 @@ let conLogMaxSize = 5000000; // File size, in bytes. Setting to zero or null dis
 function consoleLog() {
 	let log = '';
 	// Load previous log
-	if (utils.IsFile(conLog)) {log += utils.ReadTextFile(conLog, convertCharsetToCodepage('UTF-8'));}
+	if (utils.IsFile(conLog)) {try {log += utils.ReadTextFile(conLog, convertCharsetToCodepage('UTF-8'));} catch (e) {}}
 	// Add HH:MM:SS
 	const stamp = '[' + new Date().toLocaleTimeString() + ']';
 	log += (log && log.length ? '\n' : '') + stamp;

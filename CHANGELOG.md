@@ -10,6 +10,7 @@
 ### Changed
 ### Removed
 ### Fixed
+- Avoid file reading crashing in any case (even if it's locked by another process).
 
 ## [1.0.1] - 2021-12-23
 ### Added
