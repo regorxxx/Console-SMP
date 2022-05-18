@@ -2,6 +2,7 @@
 
 ## [Table of Contents]
 - [Unreleased](#unreleased)
+- [1.0.2](#102---2022-05-19)
 - [1.0.1](#101---2021-12-23)
 - [1.0.0](#100---2021-10-08)
 
@@ -12,7 +13,14 @@
 ### Removed
 ### Fixed
 - Avoid file reading crashing in any case (even if it's locked by another process).
-- Avoid file writing crashing in any case (even if it's locked by another process).
+
+## [1.0.2] - 2022-05-19
+### Added
+### Changed
+- Check log file size before writing to file in the same session, not only on script loading.
+### Removed
+### Fixed
+- Avoid file reading crashing in any case (even if it's locked by another process).
 
 ## [1.0.1] - 2021-12-23
 ### Added
@@ -28,6 +36,7 @@
 ### Removed
 ### Fixed
 
-[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v1.0.1...HEAD
-[1.0.1]: https://github.com/regorxxx/Console-SMP/compare/c21c65f...v1.0.1
+[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v1.0.2...HEAD
+[1.0.2]: https://github.com/regorxxx/Console-SMP/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/regorxxx/Console-SMP/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/regorxxx/Console-SMP/compare/c21c65f...v1.0.0
