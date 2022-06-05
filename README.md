@@ -41,6 +41,23 @@ console.popup('This is output to log file at foobar profile folder, console on U
 
 ![Capture](https://user-images.githubusercontent.com/83307074/136626429-e29deefb-d334-4097-88d4-c096b263b436.JPG)
 
+As a bonus, the profiler has also been wrapped:
+```javascript
+// FbProfiler follows the same logic
+const test = new FbProfiler('test');
+// Do something
+for (let i = 0; i < 999999; i++) {Object.getOwnPropertyNames({});}
+// Outputs bare time in ms like "143"
+console.log(test.Time);
+ // Outputs "test". In standard SMP it would be undefined
+console.log(test.Name);
+// Outputs component name/version/assigned name like "Spider Monkey Panel v1.0.0: profiler (test): 166 ms"
+// To console and file
+test.Print();
+// Only to console
+test.PrintUI();
+```
+
 There is an usage example on the 'examples' folder.
 
 ## Other implementations

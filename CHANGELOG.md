@@ -2,7 +2,8 @@
 
 ## [Table of Contents]
 - [Unreleased](#unreleased)
-- [1.0.3](#103---2022-06-05)
+- [1.1.0](#110---2022-06-05)
+- [1.0.3](#103---2022-05-04)
 - [1.0.2](#102---2022-05-19)
 - [1.0.1](#101---2021-12-23)
 - [1.0.0](#100---2021-10-08)
@@ -13,14 +14,20 @@
 ### Removed
 ### Fixed
 
-## [1.0.3] - 2022-06-05
+## [1.1.0] - 2022-06-05
+### Added
+- Rewrapped entire FbProfiler class to also log to file (the same than console.log). FbProfiler object has now an exposed property 'Name'. 'FbProfiler.Print' method will print to console and log file.
+- New method 'FbProfiler.PrintUI' which mimics the old behavior, printing only to console.
+### Changed
+### Removed
+### Fixed
+
+## [1.0.3] - 2022-06-04
 ### Added
 ### Changed
-- Check log file size before writing to file in the same session, not only on script loading.
 - console.popup now has an additional argument to switch showing/hiding the popup (for ex. for actions via online controllers).
 ### Removed
 ### Fixed
-- Avoid file reading crashing in any case (even if it's locked by another process).
 
 ## [1.0.2] - 2022-05-19
 ### Added
@@ -44,7 +51,8 @@
 ### Removed
 ### Fixed
 
-[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v1.0.3...HEAD
+[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/regorxxx/Console-SMP/compare/v1.0.3...v1.1.0
 [1.0.3]: https://github.com/regorxxx/Console-SMP/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/regorxxx/Console-SMP/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/regorxxx/Console-SMP/compare/v1.0.0...v1.0.1
