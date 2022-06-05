@@ -14,7 +14,7 @@ Default UI allows to open the console log into a panel and save its content to a
 - File is only reset when certain file size is reached (configurable).
 - Works 'as is' without any modification on existing scripts, just include it and done.
 - Converts sets and maps to arrays before logging.
-- Converts standard objects and functions as strings before logging.
+- Converts standard objects and functions to strings before logging.
 
 ## Usage
 Just include the helper file:
