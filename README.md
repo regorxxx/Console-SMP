@@ -29,6 +29,7 @@ console.log('This is output to log file at foobar profile folder and to console 
 
 A method has been created to only send the message to the the UI console:
 ```javascript
+// This simply replicates the original method
 console.logUI('This is output only to console on UI. New method.');
 ```
 
