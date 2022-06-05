@@ -58,6 +58,8 @@ test.Print();
 test.PrintUI();
 ```
 
+![image](https://user-images.githubusercontent.com/83307074/172067617-32251219-952e-4194-8b77-382623edfece.png)
+
 There is an usage example on the 'examples' folder.
 
 ## Other implementations
