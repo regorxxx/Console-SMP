@@ -27,9 +27,15 @@ Since the original method has been wrapped, it will work without further modific
 console.log('This is output to log file at foobar profile folder and to console on UI.');
 ```
 
-A new method has been created to only send the message to the the UI console:
+A method has been created to only send the message to the the UI console:
 ```javascript
 console.logUI('This is output only to console on UI. New method.');
+```
+
+Another to send the message to both the console (+ file) and a popup:
+```javascript
+// New lines '\n' are split into new entries before sending them to the console
+console.popup('This is output to log file at foobar profile folder, console on UI and a popup.\nNew method.', 'My popup');
 ```
 
 ![Capture](https://user-images.githubusercontent.com/83307074/136626429-e29deefb-d334-4097-88d4-c096b263b436.JPG)
