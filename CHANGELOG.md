@@ -2,6 +2,7 @@
 
 ## [Table of Contents]
 - [Unreleased](#unreleased)
+- [1.0.3](#103---2022-06-05)
 - [1.0.2](#102---2022-05-19)
 - [1.0.1](#101---2021-12-23)
 - [1.0.0](#100---2021-10-08)
@@ -9,7 +10,14 @@
 ## [Unreleased][]
 ### Added
 ### Changed
+### Removed
+### Fixed
+
+## [1.0.3] - 2022-06-05
+### Added
+### Changed
 - Check log file size before writing to file in the same session, not only on script loading.
+- console.popup now has an additional argument to switch showing/hiding the popup (for ex. for actions via online controllers).
 ### Removed
 ### Fixed
 - Avoid file reading crashing in any case (even if it's locked by another process).
@@ -36,7 +44,8 @@
 ### Removed
 ### Fixed
 
-[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v1.0.2...HEAD
+[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v1.0.3...HEAD
+[1.0.2]: https://github.com/regorxxx/Console-SMP/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/regorxxx/Console-SMP/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/regorxxx/Console-SMP/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/regorxxx/Console-SMP/compare/c21c65f...v1.0.0
