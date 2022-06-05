@@ -101,7 +101,7 @@ if (FbProfiler.prototype.Print) {
 		let message = '';
 		if (printComponentInfoopt) {message += 'Spider Monkey Panel v' + utils.Version + ': ';}
 		message += 'profiler (' + this.Name + '): ';
-		if (additionalMsgopt && additionalMsgopt.length) {message += additionalMsgopt + ':';}
+		if (additionalMsgopt && additionalMsgopt.length) {message += additionalMsgopt + ' ';}
 		message += this.Time + 'ms';
 		consoleLog(message);
 	};
