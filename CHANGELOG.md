@@ -2,6 +2,7 @@
 
 ## [Table of Contents]
 - [Unreleased](#unreleased)
+- [1.1.1](#111---2022-06-19)
 - [1.1.0](#110---2022-06-05)
 - [1.0.3](#103---2022-05-04)
 - [1.0.2](#102---2022-05-19)
@@ -10,6 +11,13 @@
 
 ## [Unreleased][]
 ### Added
+### Changed
+### Removed
+### Fixed
+
+## [1.1.1] - 2022-06-19
+### Added
+- New setting 'conLogThrottling' to control the frequency of text writing to file. Consecutive calls within that interval are cached and all text flushed when there are no more calls (debouncing). This should greatly improve performance when calling the console multiple times in a small frame of time wring to physical file only once.
 ### Changed
 ### Removed
 ### Fixed
@@ -51,7 +59,8 @@
 ### Removed
 ### Fixed
 
-[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v1.1.1...HEAD
+[1.1.1]: https://github.com/regorxxx/Console-SMP/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/regorxxx/Console-SMP/compare/v1.0.3...v1.1.0
 [1.0.3]: https://github.com/regorxxx/Console-SMP/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/regorxxx/Console-SMP/compare/v1.0.1...v1.0.2
