@@ -2,6 +2,7 @@
 
 ## [Table of Contents]
 - [Unreleased](#unreleased)
+- [2.0.0](#200---2023-02-23)
 - [1.2.1](#121---2022-08-14)
 - [1.2.0](#120---2022-06-19)
 - [1.1.0](#110---2022-06-05)
@@ -11,6 +12,12 @@
 - [1.0.0](#100---2021-10-08)
 
 ## [Unreleased][]
+### Added
+ ### Changed
+### Removed
+### Fixed
+
+## [2.0.0] - 2023-02-23
 ### Added
 - console.flush() method to force writing cache to file (usually used at on_script_unload)
  ### Changed
@@ -72,7 +79,8 @@ Logging of null value not working properly.
 ### Removed
 ### Fixed
 
-[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v1.2.1...HEAD
+[Unreleased]: https://github.com/regorxxx/Console-SMP/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/regorxxx/Console-SMP/compare/v1.2.1...v2.0.0
 [1.2.1]: https://github.com/regorxxx/Console-SMP/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/regorxxx/Console-SMP/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/regorxxx/Console-SMP/compare/v1.0.3...v1.1.0
