@@ -26,7 +26,7 @@
 - Logging now adds 'dd/mm/yyyy' line when touching the file if the last modified date differs. Should greatly enhance readability of logging for different days, since previously there was no way to know which day was for every line unless you manually counted the hour stamp resets.
 ### Removed
 ### Fixed
-Logging of null value not working properly.
+- Logging of null value not working properly.
 
 ## [1.2.1] - 2022-08-14
 ### Added
