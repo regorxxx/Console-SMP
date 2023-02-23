@@ -12,9 +12,14 @@
 
 ## [Unreleased][]
 ### Added
-### Changed
+- console.flush() method to force writing cache to file (usually used at on_script_unload)
+ ### Changed
+- Moved all global variables to console namespace. i.e. console.File, console.MaxSize, console.Throttling, console.Timer, console.Cache.
+- Added specific handling of FbMetadbHandle and FbMetadbHandleList objects.
+- Logging now adds 'dd/mm/yyyy' line when touching the file if the last modified date differs. Should greatly enhace readability of logging for different days, since previously there was no way to know which day was for every line unless you manually counted the hour stamp resets.
 ### Removed
 ### Fixed
+Logging of null value not working properly.
 
 ## [1.2.1] - 2022-08-14
 ### Added
