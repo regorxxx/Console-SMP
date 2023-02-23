@@ -19,7 +19,7 @@
 
 ## [2.0.0] - 2023-02-23
 ### Added
-- console.flush() method to force writing cache to file (usually used at on_script_unload)
+- console.flush() method to force writing cache to file (usually used at on_script_unload).
  ### Changed
 - Moved all global variables to console namespace. i.e. console.File, console.MaxSize, console.Throttling, console.Timer, console.Cache.
 - Added specific handling of FbMetadbHandle and FbMetadbHandleList objects.
