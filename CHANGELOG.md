@@ -13,7 +13,10 @@
 
 ## [Unreleased][]
 ### Added
- ### Changed
+- Improved object parsing with proper conversion to arrays or strings according to types.
+- Added error object type parsing.
+- Added bSplit to console.popup(arg, popupName, bPopup = true, bSplit = true) to toggle splitting lines.
+### Changed
 ### Removed
 ### Fixed
 
