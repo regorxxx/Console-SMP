@@ -1,15 +1,15 @@
 ﻿'use strict';
-//05/06/22
+//01/03/23
 include('..\\helpers\\helpers_xxx_console.js');
 
 /* 
 	Console
 */
-console.log('This is output to log file at foobar profile folder and to console on UI.');
+console.log('This is output to log file at foobar2000 profile folder and to console on UI.');
 // This simply replicates the original method
 console.logUI('This is output only to console on UI. New method.');
 // New lines '\n' are split into new entries before sending them to the console
-console.popup('This is output to log file at foobar profile folder, console on UI and a popup.\nNew method.', 'My popup');
+console.popup('This is output to log file at foobar2000 profile folder, console on UI and a popup.\nNew method.', 'My popup');
 
 /* 
 	FbProfiler 
